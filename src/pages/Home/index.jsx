@@ -14,7 +14,7 @@ import {
 import Categorias from "./categorias";
 import Produtos from "./Produtos";
 import Marcas from "./marcas";
-import Chart from "./chart";
+import ApexCharts from "react-apexcharts";
 
 function Home() {
   document.title = "Sales Report | Miriam Amaral";
@@ -28,6 +28,19 @@ function Home() {
 
     setFormValues({ ...formValues, [name]: value });
   }
+
+  var options = {
+    chart: {
+      type: "line",
+    },
+  };
+
+  var series = [
+    {
+      name: "series-1",
+      data: [30, 40, 45, 50, 49, 60, 70, 91],
+    },
+  ];
 
   return (
     <GuestLayout>
@@ -49,7 +62,7 @@ function Home() {
             </Form>
           </Col>
         </div>
-        <Chart />
+        <ApexCharts options={options} series={series} />
       </div>
     </GuestLayout>
   );
