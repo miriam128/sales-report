@@ -1,0 +1,26 @@
+.footer-container {
+  background-color: #353535;
+  padding: 2rem;
+  gap: 2rem;
+  color: #ffffff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-medias-container {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  gap: 2rem;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  gap: 0.5rem;
+}

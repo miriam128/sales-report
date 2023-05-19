@@ -1,0 +1,12 @@
+.bwo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.bwo > span {
+  padding-left: 0.1rem;
+  font-weight: 700;
+  font-size: larger;
+  color: #325688;
+}

@@ -1,0 +1,54 @@
+.home-greet-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 0;
+  gap: 1rem;
+}
+
+.home-greet-avatar-and-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.home-greet-text > h1 {
+  font-family: "Prata", serif;
+  font-size: 40px;
+}
+
+.home-greet-text > h4,
+.home-project-title {
+  font-family: "Prata", serif;
+  font-size: 23px;
+}
+
+@media (width > 1200px) {
+  .home-greet-container {
+    gap: 0rem;
+    min-height: 90vh;
+  }
+
+  .home-greet-avatar-and-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .home-greet-text > h1 {
+    font-family: "Prata", serif;
+    font-size: 70px;
+  }
+
+  .home-greet-text > h4 {
+    font-family: "Prata", serif;
+    font-size: 35px;
+  }
+}
