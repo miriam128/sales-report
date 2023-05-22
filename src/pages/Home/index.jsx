@@ -1,16 +1,7 @@
 import React, { useState } from "react";
 import "./home.css";
 import GuestLayout from "../../layouts/GuestLayout";
-import {
-  Button,
-  Col,
-  Container,
-  Form,
-  FormGroup,
-  Input,
-  Label,
-  Row,
-} from "reactstrap";
+import { Col, Form, FormGroup, Input, Label, Row } from "reactstrap";
 import Categorias from "./categorias";
 import Produtos from "./Produtos";
 import Marcas from "./marcas";
