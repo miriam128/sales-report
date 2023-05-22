@@ -47,7 +47,7 @@ function Home() {
             <Form className="p-0 w-100">
               <Row>
                 <Categorias onChange={handleInputChange} />
-                <Produtos category={formValues.category} />
+                <Produtos />
                 <Marcas />
               </Row>
             </Form>

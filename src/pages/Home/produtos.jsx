@@ -1,7 +1,7 @@
 import { createFactory } from "react";
 import { Col, FormGroup, Input, Label } from "reactstrap";
 
-export default function Produtos({ category }) {
+export default function Produtos() {
   const produtos = [
     { id: 4, nome: "Aveia", categoria: { id: 1, nome: "Alimentos" } },
     {
